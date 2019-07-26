@@ -3,8 +3,8 @@
 
     <!-- 顶部 Header 区域 -->
     <mt-header fixed title="黑马程序员·Vue项目"></mt-header>
- 
 
+ 
     <!-- 中间的 路由 router-view 区域 -->
 		<transition>
 			<router-view></router-view>
@@ -43,6 +43,7 @@
 <style lang="scss" scoped>
 .app-container {
   padding-top: 40px;
+	padding-bottom: 50px;
   overflow-x: hidden;
 }
 
