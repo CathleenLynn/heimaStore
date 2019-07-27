@@ -2,14 +2,14 @@
   <div class="newsinfo-container">
     <!-- 大标题 -->
     <h3 class="title">{{ newsinfo.title }}</h3>
-    <!-- 子标题 --> 
+    <!-- 子标题 -->
     <p class="subtitle">
       <span>发表时间：{{ newsinfo.add_time | dateFormat }}</span>
       <span>点击：{{ newsinfo.click }}次</span>
     </p>
 
     <hr>
-
+ 
     <!-- 内容区域 -->
     <div class="content" v-html="newsinfo.content"></div>
 
