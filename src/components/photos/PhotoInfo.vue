@@ -6,13 +6,13 @@
       <span>点击：{{ photoinfo.click }}次</span>
     </p>
 
-    <hr> 
+    <hr>
 
     <!-- 缩略图区域 -->
     <div class="thumbs">
       <img class="preview-img" v-for="(item, index) in list" :src="item.src" height="100" @click="$preview.open(index, list)" :key="item.src">
     </div>
-
+ 
     <!-- 图片内容区域 -->
     <div class="content" v-html="photoinfo.content"></div>
 

@@ -9,8 +9,8 @@
 		<transition>
 			<router-view></router-view>
 		</transition>
- 
 
+ 
     <!-- 底部 Tabbar 区域 -->
     <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item-llb" to="/home">
@@ -23,7 +23,7 @@
 			</router-link>
 			<router-link class="mui-tab-item-llb" to="/shopcar">
 				<span class="mui-icon mui-icon-extra mui-icon-extra-cart">
-					<span class="mui-badge">0</span>
+					<span class="mui-badge" id="badge">0</span>
 				</span>
 				<span class="mui-tab-label">购物车</span>
 			</router-link>
