@@ -12,7 +12,7 @@
       </div>
 
     </div>
- 
+  
     <!-- 图片列表区域 -->
     <ul class="photo-list">
       <router-link v-for="item in list" :key="item.id" :to="'/home/photoinfo/' + item.id" tag="li">
