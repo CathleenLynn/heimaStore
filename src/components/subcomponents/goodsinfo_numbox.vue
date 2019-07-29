@@ -10,7 +10,7 @@
   <!-- 分析： 子组件什么时候把 数据传递给父组件 -->
   <!--  -->
 </template>
-  
+
 <script>
 import mui from "../../lib/mui/js/mui.min.js";
 
@@ -19,7 +19,7 @@ export default {
     // 初始化数字选择框组件
     mui(".mui-numbox").numbox();
     console.log(this.max);
-  },
+  }, 
   methods: {
     countChanged() {
       // 每当 文本框的数据被修改的时候，立即把 最新的数据，通过事件调用，传递给父组件

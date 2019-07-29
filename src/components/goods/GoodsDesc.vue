@@ -3,11 +3,11 @@
     <h3>{{ info.title }}</h3>
 
     <hr>
-
+ 
     <div class="content" v-html="info.content"></div>
   </div>
 </template>
- 
+
 <script>
 export default {
   data() {
@@ -28,7 +28,7 @@ export default {
           }
         });
     }
-  } 
+  }
 };
 </script>
 

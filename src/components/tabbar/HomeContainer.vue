@@ -3,7 +3,7 @@
 
     <!-- 轮播图区域 -->
     <swiper :lunbotuList="lunbotuList" :isfull="true"></swiper>
-  
+
 
     <!-- 九宫格 到 6宫格 的改造工程 -->
     <ul class="mui-table-view mui-grid-view mui-grid-9">
@@ -27,7 +27,7 @@
               <img src="../../images/menu6.png" alt="">
               <div class="mui-media-body">联系我们</div></a></li>
   </ul> 
-
+ 
   </div>
 </template>
 
